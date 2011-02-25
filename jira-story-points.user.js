@@ -9,10 +9,10 @@
 // ==/UserScript==
 
 // debug/logging function
-if (unsafeWindow.console)
-{
-	var GM_log = unsafeWindow.console.log;
-}
+// if (unsafeWindow.console)
+// {
+// 	var GM_log = unsafeWindow.console.log;
+// }
 
 // check for story points column
 (function ($)
