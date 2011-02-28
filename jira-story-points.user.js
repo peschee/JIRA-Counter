@@ -4,7 +4,7 @@
 // @description    Counts the number of story points in a JIRA filter.
 // @include        https://jira.liip.ch/*
 // @require        https://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js
-// @version        1.0.2
+// @version        1.0.3
 // @icon           http://f.cl.ly/items/122R0b1n3Q1w1j0A2o3S/text_list_numbers.png
 // ==/UserScript==
 
@@ -20,7 +20,7 @@
 	// labels
 	var label_sp     = 'Story Points';
 	var label_est    = 'Original Estimate';
-	var label_spent  = 'Story Points';
+	var label_spent  = 'Time Spent';
 
 	// label elements
 	var $label_sp    = $("#issuetable th span:contains('" + label_sp + "')");
@@ -148,7 +148,7 @@
 			if (total_spent > 0)
 			{
 				var $results = $('.results-count');
-				$results.append(' Total <strong>' + total_est + '</strong> hours spent.');
+				$results.append(' Total <strong>' + total_spent + '</strong> hours spent.');
 			}
 		}
 
