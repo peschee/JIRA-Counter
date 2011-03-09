@@ -1,7 +1,7 @@
 {
 	"name": "JIRA Story Points Counter",
-	"version": "1.0",
-	"description": "Counts the number of story points in JIRA filters.",
+	"version": "1.0.3",
+	"description": "Counts the number of story points (and some other things) (and some other things) (and some other things) (and some other things) (and some other things) (and some other things) (and some other things) (and some other things) (and some other things) in JIRA filters.",
 
 	"content_scripts": [{
 		"matches": ["https://jira.liip.ch/*"],
