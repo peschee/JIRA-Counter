@@ -2,7 +2,7 @@
 // @name           JIRA Story Points
 // @namespace      http://pesche.name
 // @description    Counts the number of story points in a JIRA filter.
-// @include        https://jira.liip.ch/*
+// @include        https://jira.*
 // @require        https://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js
 // @version        1.0.3
 // @icon           http://f.cl.ly/items/122R0b1n3Q1w1j0A2o3S/text_list_numbers.png

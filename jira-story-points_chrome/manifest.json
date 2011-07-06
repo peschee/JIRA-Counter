@@ -4,7 +4,7 @@
 	"description": "Counts the number of story points (and some other things) (and some other things) (and some other things) (and some other things) (and some other things) (and some other things) (and some other things) (and some other things) (and some other things) in JIRA filters.",
 
 	"content_scripts": [{
-		"matches": ["https://jira.liip.ch/*"],
+		"matches": ["https://jira.*"],
 		"js": ["jquery.min.js", "jira.js"],
 		"run_at": "document_end"
 	}],
