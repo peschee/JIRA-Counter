@@ -24,7 +24,7 @@ Installation
 ### Firefox ###
 
 - Install the [Greasemonkey extension](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/)
-- Open the `jira-counter.user.js` userscript from within the browser
+- Open the `jira-counter.user.js` userscript from within the browser (File → Open)
 - Navigate to the list of issues in JIRA you want the values computed for
 	- Do not forget to enable at least one of the appropriate columns if not
 	  shown already (Story Points, Estimated Hours, Time Spent)
@@ -38,7 +38,7 @@ Installation
 ### Chrome ###
 
 - Download `jira-counter_chrome.x.x.crx` extension from the list of downloads
-- Open it in Chrome and follow the instructions to install
+- Open it in Chrome (File → Open) and follow the instructions to install
 
 
 Caveats
